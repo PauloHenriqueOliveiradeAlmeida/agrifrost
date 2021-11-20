@@ -11,7 +11,7 @@ function Map(props) {
     }
     const { isLoaded } = useJsApiLoader({
         id: 'google-map-script',
-        googleMapsApiKey: "AIzaSyACSS1Xj0-QbCJqMHwrtcXPkYjKbMECao4"
+        GoogleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_CLOUD_API
     });
 
     return (
