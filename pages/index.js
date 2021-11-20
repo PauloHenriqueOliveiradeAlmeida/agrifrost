@@ -26,7 +26,7 @@ export default function Home() {
       <Box>
         <AppBar sx={{backgroundColor: "#3bab59"}}>
           <Toolbar>
-            <Link href="/conta">
+            <Link href="/">
               <a>
                 <AccountCircleIcon sx={{marginRight: 3}} fontSize="large"/>
               </a>
